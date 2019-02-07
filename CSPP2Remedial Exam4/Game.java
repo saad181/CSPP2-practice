@@ -25,12 +25,12 @@ class Game {
 
 
 	public Player higher() {
-		int temp = 0;
+		int t= 0; 
 		Player tem = null;
 		for (int i = 0; i < this.ind; i++) {
-			if (players[i].getScore() > temp) {
+			if (players[i].getScore() > t) {
 				
-				temp = players[i].getScore();
+				t = players[i].getScore();
 				tem = players[i];
 				
 			}
