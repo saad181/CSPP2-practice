@@ -24,7 +24,7 @@ class Game {
 	}
 
 
-	public Player higher() {
+	public Player high() {
 		int t= 0; 
 		Player tem = null;
 		for (int i = 0; i < this.ind; i++) {
@@ -44,14 +44,14 @@ class Game {
 		int t = 0;
 		Player tem = null;
 		for (int i = 0; i < this.ind; i++) {
-			
+
 			if (players[i].getScore() >100) {
 				
 				return players[i];
 			}
 
 		}
-		return higher();
+		return high();
 		
 	}
 }
