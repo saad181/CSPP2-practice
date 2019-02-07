@@ -9,7 +9,7 @@ class Game {
 
 	public void addPlayer(Player name) {
 		players[this.ind++] = name;
-		//System.out.println(Arrays.toString(players));
+		
 	}
 
 
@@ -43,12 +43,10 @@ class Game {
 	public Player winner() {
 		
 		for (int i = 0; i < this.ind; i++) {
-			//System.out.println("inside");
-			//System.out.println(players[i].getScore());
+			
 
 			if (players[i].getScore() >= 100) {
-				//System.out.println("inside");
-				//System.out.println(players[i].getScore());
+				
 				return players[i];
 			}
 
