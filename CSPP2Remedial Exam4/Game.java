@@ -51,7 +51,7 @@ class Game {
 			}
 
 		}
-		return null;
+		return higher();
 	}
 }
 
