@@ -41,8 +41,10 @@ class Game {
 
 
 	public Player winner() {
-		
+		int t = 0;
+		Player tem = null;
 		for (int i = 0; i < this.ind; i++) {
+			
 			if (players[i].getScore() >100) {
 				
 				return players[i];
