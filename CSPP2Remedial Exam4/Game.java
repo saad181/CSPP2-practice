@@ -42,15 +42,15 @@ class Game {
 
 	public Player winner() {
 		
-		Player tem = null;
-		for (int i = 0; i < this.ind; i++) {
+		// Player tem = null;
+		// for (int i = 0; i < this.ind; i++) {
 
-			// if (players[i].getScore() >100) {
+		// 	// if (players[i].getScore() >100) {
 				
-			// 	return players[i];
-			// }
+		// 	// 	return players[i];
+		// 	// }
 
-		}
+		// }
 		return high();
 		
 	}
