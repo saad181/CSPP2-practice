@@ -43,15 +43,14 @@ class Game {
 	public Player winner() {
 		
 		for (int i = 0; i < this.ind; i++) {
-			
-
-			if (players[i].getScore() >= 100) {
+			if (players[i].getScore() >100) {
 				
 				return players[i];
 			}
 
 		}
 		return higher();
+		
 	}
 }
 
