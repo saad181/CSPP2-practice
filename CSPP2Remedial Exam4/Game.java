@@ -25,19 +25,18 @@ class Game {
 
 
 	public Player higher() {
-		int tmpp = 0;
-		Player tmp = null;
+		int temp = 0;
+		Player tem = null;
 		for (int i = 0; i < this.ind; i++) {
-			if (players[i].getScore() > tmpp) {
-				//System.out.println("inside");
-				//System.out.println(players[i].getScore());
-				tmpp = players[i].getScore();
-				tmp = players[i];
-				// System.out.println(players[i].getName() + players[i].getScore());
+			if (players[i].getScore() > temp) {
+				
+				temp = players[i].getScore();
+				tem = players[i];
+				
 			}
 
 		}
-		return tmp;
+		return tem;
 	}
 
 
