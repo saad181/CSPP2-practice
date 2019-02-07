@@ -24,7 +24,7 @@ class Game {
 	}
 
 
-	public Player high() {
+	public Player winner() {
 		int t= 0; 
 		Player tem = null;
 		for (int i = 0; i < this.ind; i++) {
