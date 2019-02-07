@@ -36,16 +36,13 @@ public class Solution {
 					
 				}
 				
-				
-
-
 			}
 		}
-		if (game.winner() != null) {
+		//if (game.winner() != null) {
 			System.out.println(game.winner().getName());	
-		} else {
-			System.out.println(game.higher().getName());
-		}
+		//} else {
+		//	System.out.println(game.higher().getName());
+		
 		
 	}
 }
