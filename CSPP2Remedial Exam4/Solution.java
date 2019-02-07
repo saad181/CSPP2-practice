@@ -39,7 +39,7 @@ public class Solution {
 			}
 		}
 		//if (game.winner() != null) {
-			System.out.println(game.winner().getName());	
+			System.out.println(game.high().getName());	
 		//} else {
 		//	System.out.println(game.higher().getName());
 		

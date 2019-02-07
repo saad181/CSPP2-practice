@@ -40,12 +40,12 @@ class Game {
 	}
 
 
-	public Player winner() {
+	// public Player winner() {
 		
 		
-		return high();
+	// 	return high();
 		
-	}
+	// }
 }
 
 
